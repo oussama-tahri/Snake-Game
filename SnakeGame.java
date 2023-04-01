@@ -170,7 +170,7 @@ public class SnakeGame extends JPanel implements ActionListener {
         public void keyPressed(KeyEvent e) {
             int key = e.getKeyCode();
 
-            if ((key == KeyEvent.VK_Q) && (!rightDirection)) {
+            if ((key == KeyEvent.VK_A) && (!rightDirection)) {
                 leftDirection = true;
                 upDirection = false;
                 downDirection = false;
@@ -182,7 +182,7 @@ public class SnakeGame extends JPanel implements ActionListener {
                 downDirection = false;
             }
 
-            if ((key == KeyEvent.VK_Z) && (!downDirection)) {
+            if ((key == KeyEvent.VK_W) && (!downDirection)) {
                 upDirection = true;
                 rightDirection = false;
                 leftDirection = false;
